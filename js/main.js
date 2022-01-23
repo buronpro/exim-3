@@ -10,22 +10,22 @@ let elInputMassa = document.querySelector(".inputMassa ")
 
 
 
-function addNewPokemon(pokemonImg, pokemonName, pokemonType, pokemonWeight, pokemonHeight, pokemonArr){
-    var inputFirstValue = pokemonImg.value.trim();
-    var inputSecondValue = pokemonName.value.trim();    
-    var inputThirdValue = pokemonType.value.trim();
-    var inputFourthValue = pokemonWeight.value.trim() + ' kg';
-    var inputFifthValue = pokemonHeight.value.trim() + ' m';
+function addNewPokemon(imgpokemon, Namepokemon, Typepokemon, Weightpokemon, Heightpokemon, Arrpokemon){
+    let inputimg = imgpokemon.value.trim();
+    let inputname = Namepokemon.value.trim();    
+    let inputtype = Typepokemon.value.trim();
+    let inputweight = Weightpokemon.value.trim() + ' kg';
+    let inputheight = Heightpokemon.value.trim() + ' m';
 
     var newPokemon = ({
-        img: inputFirstValue,
-        name: inputSecondValue,
-        type: inputThirdValue,
-        weight: inputFourthValue,
-        height: inputFifthValue
+        img: inputimg,
+        name: inputname,
+        type: inputtype,
+        weight: inputweight,
+        height: inputheight
     })
 
-    pokemonArr.unshift(newPokemon)
+    Arrpokemon.unshift(newPokemon)
 }
 
 
