@@ -1,0 +1,114 @@
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	scroll-behavior: smooth;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+body {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Arial', 'sans-serif';
+	font-size: 20px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	object-fit: cover;
+	vertical-align: middle;
+}
+
+li {
+	list-style-type: none;
+	width: 280px;
+	height: 423px;
+	margin: 10px;
+	background-color:#fff ;
+	border-radius: 20px;
+}
+
+main {
+	flex-grow: 1;
+}
+
+#name_input {
+	width: 200px;
+	height:25px;
+}
+
+
+ul {
+	display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    grid-gap: 15px;
+	margin-left: -80px;
+	margin-top: 40px;
+	
+}
+
+img {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+hr {
+	margin-top: 70px;
+}
+
+.age {
+	color: #000;
+}
+
+.agee {
+	margin-left: 150px;
+	margin-top: -45px;
+	color: #000
+}
+
+h2 {
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+p {
+	margin-left: 30px;
+}
+
+.imgss {
+    margin-left: 330px;
+    margin-top: 20px;
+}
+
+form {
+    margin-top: 50px;
+	margin-left: 10px;
+}
+
+.btn {
+	margin-left: 250px;
+	margin-top: 20px;
+}
+
+hr {
+	height: 2px;
+	color: black;
+}
