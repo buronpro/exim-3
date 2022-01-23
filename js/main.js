@@ -17,7 +17,7 @@ function addNewPokemon(imgpokemon, Namepokemon, Typepokemon, Weightpokemon, Heig
     let inputweight = Weightpokemon.value.trim() + ' kg';
     let inputheight = Heightpokemon.value.trim() + ' m';
 
-    var newPokemon = ({
+    let newPokemon = ({
         img: inputimg,
         name: inputname,
         type: inputtype,
